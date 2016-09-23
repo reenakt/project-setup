@@ -1,7 +1,7 @@
 
-#ToDo App
+#ProjectSetup for mean application
 
-It is a Mean Stack Application build using Node.js, Angular JS and Mongo DB to  Create, Edit, Update and Remove todolist. It is a single page application developed using NPM and bower.
+It is a Mean Stack Application build using Node.js, Angular, mongodb. It is a single page application developed using NPM and bower.
 
 ##Tools Required
 ```
@@ -40,12 +40,5 @@ node server.js
 ./mongod
 ./mongo
 ```
-* Open RoboMongo and Create a DB Connection with todo  and user collections.
 
-* Open browser and follow the below steps to use ToDo App.
-```
-URL : http://localhost:3000/
-Click Add  for new todo list.
-Click Todolist to list all the todos.
-Edit, update and delete selected todo.
-```
+
