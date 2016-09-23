@@ -11,7 +11,7 @@ var validateFieldStrategy = function (property) {
 }
 
 
-var TodoSchema = new Schema({
+var AnySchema = new Schema({
 
     name:String,
     completed:Boolean,
@@ -23,4 +23,4 @@ var TodoSchema = new Schema({
 
 })
 
-mongoose.model('credoTask', TodoSchema);
+mongoose.model('reena', AnySchema);

@@ -12,20 +12,6 @@ module.exports = function(app){
         .route('/')
         .get(mainController.index);
 
-    app
-
-        .route('/api/task')
-        .get(controller.getTasks)
-        .post(controller.createTask)
-
-    app
-        .route('/api/task/:todoId')
-        .put(controller.updateTodo)
-        .delete(controller.deleteTodo)
-        .get(controller.getTodoById)
-
-
-    app.param('todoId',controller.validateTodoIdAndForward);
 
 
 

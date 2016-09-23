@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose'),
 
-    Todo = mongoose.model('credoTask');
+    Todo = mongoose.model('reena');
 
 module.exports.saveTask = function(savableTask,callback){
 
